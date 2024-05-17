@@ -31,5 +31,16 @@ tag = '计算机'
 
 主题原本是git子模块引入的。试了下删除`\theme\ananke`和`.gitmodules`，初始化hugo子模块`hugo mod init github.com/BLABLA`，改配置`theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]`，成功。
 
+### 加“关于”页
+
+增加文件`\content\about.md`
+```markdown
++++
+title = '关于'
++++
+
+blabla
+```
+
 ### 加标签显示和标签聚合页
 
