@@ -2,32 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>博客</title>
-    <link>http://localhost:3116/</link>
+    <link>http://localhost:13115/</link>
     <description>Recent content on 博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 17 May 2024 08:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:3116/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:13115/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客框架迁移到Hugo</title>
-      <link>http://localhost:3116/posts/%E8%BF%81%E7%A7%BBhugo/</link>
+      <link>http://localhost:13115/posts/%E8%BF%81%E7%A7%BBhugo/</link>
       <pubDate>Fri, 17 May 2024 08:00:00 +0800</pubDate>
-      <guid>http://localhost:3116/posts/%E8%BF%81%E7%A7%BBhugo/</guid>
-      <description>&lt;p&gt;还是没忍住对性能的向往，迁移到了Hugo。天下武功，唯快不破。&lt;/p&gt;</description>
+      <guid>http://localhost:13115/posts/%E8%BF%81%E7%A7%BBhugo/</guid>
+      <description>&lt;p&gt;天下武功，唯快不破。还是没忍住对性能的向往，迁移到了Hugo。&lt;/p&gt;</description>
     </item>
     <item>
       <title>个人博客部署</title>
-      <link>http://localhost:3116/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</link>
+      <link>http://localhost:13115/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Thu, 16 May 2024 15:00:00 +0800</pubDate>
-      <guid>http://localhost:3116/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</guid>
+      <guid>http://localhost:13115/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</guid>
       <description>&lt;p&gt;印象中大部分个人博客的第一篇文章都是讲自己这个博客是如何搭建和部署的，我也不能免俗，比起抒发开博感言，先趁热用这个主题快速写文章，以测试和梳理整个工作流程。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown渲染测试</title>
-      <link>http://localhost:3116/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</link>
+      <link>http://localhost:13115/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Thu, 16 May 2024 12:00:00 +0800</pubDate>
-      <guid>http://localhost:3116/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</guid>
-      <description>&lt;p&gt;因为不知道用的什么渲染引擎，所以直接用文章测试markdown样式。&lt;/p&gt;</description>
+      <guid>http://localhost:13115/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</guid>
+      <description>&lt;p&gt;用文章直观测试markdown渲染样式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>http://localhost:13115/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:13115/about/</guid>
+      <description>这是一个个人博客，创建的主要目的是记录本人接触到的东西便于将来自我回顾，其次是为他人提供一个了解本人的途径。&#xA;由于写作水平和知识有限，为了避免花费太多精力在解释上，也为了避免文章重点不突出，我默认不去解释一搜索就能大概了解的概念。先保证持续写作，再去做优化阅读体验的工作。&#xA;初步计划将博客分为两个部分，一个部分是相对正式的文章，另一部分是完全不讲求版面的碎碎念。博客首页只展示正式文章，碎碎念放在不起眼的页面里。&#xA;将来可能会尝试更多技术框架，博客的交互界面也会随之出现改变。</description>
+    </item>
+    <item>
+      <title>碎碎念</title>
+      <link>http://localhost:13115/microblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:13115/microblog/</guid>
+      <description>2024.05.17 17:30 总觉得我的博客用纯英文写更顺手，格式也更美观，但是我懒得翻译一遍。仔细想想，只要是代码可能涉及的文件，我都希望里面只有英文。&#xA;2024.05.16 15:20 疲惫，我的日程项目已经多到半天不看日历就会错过事情了。顺便要吐槽New Outlook打开日历太慢了，软件打开、邮件页面、切换到日历三处加载完了才能看到日程，而且还必须要联网，完全不如旧日历，秒开，可离线使用。</description>
     </item>
   </channel>
 </rss>

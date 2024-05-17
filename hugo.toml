@@ -2,4 +2,5 @@ baseURL = 'https://example.org'
 languageCode = 'zh-cn'
 title = '博客'
 timeZone = 'Etc/GMT-8'
+pagination = 5
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]

@@ -2,23 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:3116/posts/</loc>
+    <loc>http://localhost:13115/</loc>
     <lastmod>2024-05-17T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:3116/</loc>
+    <loc>http://localhost:13115/posts/%E8%BF%81%E7%A7%BBhugo/</loc>
     <lastmod>2024-05-17T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:3116/posts/%E8%BF%81%E7%A7%BBhugo/</loc>
+    <loc>http://localhost:13115/posts/</loc>
     <lastmod>2024-05-17T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:3116/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</loc>
+    <loc>http://localhost:13115/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2024-05-16T15:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:3116/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://localhost:13115/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2024-05-16T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:3116/categories/</loc>
+    <loc>http://localhost:13115/categories/</loc>
   </url><url>
-    <loc>http://localhost:3116/tags/</loc>
+    <loc>http://localhost:13115/tags/</loc>
+  </url><url>
+    <loc>http://localhost:13115/about/</loc>
+  </url><url>
+    <loc>http://localhost:13115/microblog/</loc>
   </url>
 </urlset>

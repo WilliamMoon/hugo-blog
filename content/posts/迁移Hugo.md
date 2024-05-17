@@ -5,7 +5,7 @@ tag = '计算机'
 
 +++
 
-还是没忍住对性能的向往，迁移到了Hugo。天下武功，唯快不破。<!--more-->
+天下武功，唯快不破。还是没忍住对性能的向往，迁移到了Hugo。<!--more-->
 
 ## 1 建站
 
@@ -26,4 +26,10 @@ tag = '计算机'
 ### 撰写的文章未发布
 
 发现写好的文章没有渲染成html文件，也就是不发布，查看[官方文档](https://gohugo.io/getting-started/usage/#draft-future-and-expired-content)发现文章有四种属性情况不发布，草稿`draft=true`、日期`date`未到、发布日期`publishDate`未到、过期日期`expiryDate`已过。我只设置了`date`为过去的时间，那可以猜测是时区设置问题，尝试在网站配置里修改`timeZone='Etc/GMT-8'`，好了。
+
+### 想直接引用主题而不是包含文件
+
+主题原本是git子模块引入的。试了下删除`\theme\ananke`和`.gitmodules`，初始化hugo子模块`hugo mod init github.com/BLABLA`，改配置`theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]`，成功。
+
+### 加标签显示和标签聚合页
 
