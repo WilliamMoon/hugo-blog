@@ -87,6 +87,17 @@ graph LR
     C --> D
 ```
 
+### ASCII
+```goat
+      .               .--- 1  
+      |           .---+        
+  .---+---.       |   '--- 2   
+  |       |    ---+           
+.-+-.   .-+-.     |   .--- 3   
+|   |   |   |     '---+        
+1   2   3   4         '--- 4   
+```
+
 ## 其他
 
 ### 脚注[^1]
@@ -109,22 +120,14 @@ graph LR
 
 ## 格式
 
-正文**加粗**正文
+正文*斜体*正文**加粗**正文***加粗斜体***正文
 
-正文*斜体*正文
+正文<u>下划线</u>正文~~删除线~~正文
 
-正文***加粗斜体***正文
-
-正文<u>下划线</u>正文
-
-正文~~删除线~~正文
-
-内联公式$\theta_P(x)=f(x)+\max\limits_{\alpha,\beta;\beta_j\ge0}\left[\sum\limits_{i=1}^m\alpha_ih_i(x)+\sum\limits_{j=1}^n\beta_jg_j(x)\right]$
-
-<!--注释注释注释注释-->
+内联公式$\max\limits_{\alpha}$
 
 [超链接](https://unsplash.com/ "测试title文字")
 
-带透明通道的[图片](http://pngimg.com/uploads/hat/hat_PNG5709.png)
-
-<img src="https://cdn.pixabay.com/photo/2016/03/26/01/17/treble-clef-1279909_1280.png" width=100>
+带透明通道的图片
+![图片](http://pngimg.com/uploads/hat/hat_PNG5709.png)
+![treble](https://cdn.pixabay.com/photo/2016/03/26/01/17/treble-clef-1279909_1280.png)

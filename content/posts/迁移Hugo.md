@@ -1,7 +1,7 @@
 +++
 title = '博客框架迁移到Hugo'
 date = 2024-05-17 08:00:00
-tag = '计算机'
+tags = '计算机'
 
 +++
 
@@ -13,7 +13,7 @@ tag = '计算机'
 
 ## 2 部署
 
-依然准备放到GitHub Pages上，照着[Hugo教程](https://gohugo.io/hosting-and-deployment/hosting-on-github/)配置GitHub Actions很顺利完成了。简单来说就是修改`Repo > Settings > Pages > Build and deployment` 为`GitHub Actions`，然后选择提供的Hugo部署文件或者自己创建个空的，最后直接粘贴教程里的YAML提交了就是。
+依然准备放到GitHub Pages上。先新建`.gitignore`加入`public/`后把整个项目push上去，再照着[Hugo教程](https://gohugo.io/hosting-and-deployment/hosting-on-github/)配置GitHub Actions就很顺利完成了。简单来说就是修改`Repo > Settings > Pages > Build and deployment` 为`GitHub Actions`，然后选择提供的Hugo部署文件或者自己创建个空的，最后直接粘贴教程里的YAML提交了就是。
 
 ## 3 配置
 
@@ -42,5 +42,7 @@ title = '关于'
 blabla
 ```
 
-### 加标签显示和标签聚合页
+### Mermaid支持
+
+[官方文档](https://gohugo.io/content-management/diagrams/#mermaid-diagrams)
 
