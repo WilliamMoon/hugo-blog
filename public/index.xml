@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客</title>
+    <link>http://localhost:3116/</link>
+    <description>Recent content on 博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 May 2024 08:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:3116/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客框架迁移到Hugo</title>
+      <link>http://localhost:3116/posts/%E8%BF%81%E7%A7%BBhugo/</link>
+      <pubDate>Fri, 17 May 2024 08:00:00 +0800</pubDate>
+      <guid>http://localhost:3116/posts/%E8%BF%81%E7%A7%BBhugo/</guid>
+      <description>&lt;p&gt;还是没忍住对性能的向往，迁移到了Hugo。天下武功，唯快不破。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>个人博客部署</title>
+      <link>http://localhost:3116/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Thu, 16 May 2024 15:00:00 +0800</pubDate>
+      <guid>http://localhost:3116/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</guid>
+      <description>&lt;p&gt;印象中大部分个人博客的第一篇文章都是讲自己这个博客是如何搭建和部署的，我也不能免俗，比起抒发开博感言，先趁热用这个主题快速写文章，以测试和梳理整个工作流程。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown渲染测试</title>
+      <link>http://localhost:3116/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Thu, 16 May 2024 12:00:00 +0800</pubDate>
+      <guid>http://localhost:3116/posts/markdown%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</guid>
+      <description>&lt;p&gt;因为不知道用的什么渲染引擎，所以直接用文章测试markdown样式。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
