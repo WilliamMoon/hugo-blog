@@ -44,5 +44,22 @@ blabla
 
 ### Mermaid支持
 
-[官方文档](https://gohugo.io/content-management/diagrams/#mermaid-diagrams)
+为了增加文章科普性，但手动画图又麻烦，准备用Mermaid自动生成简单图解来帮助阐述。在模板文件里引入mermaid.js、增加代码块渲染钩子即可，详见[官方文档](https://gohugo.io/content-management/diagrams/#mermaid-diagrams)。
 
+```html
+<!-- layouts/_default/baseof.html -->
+<head>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';     
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+
+<!-- layouts/_default/_markup/render-codeblock-mermaid.html -->
+<pre class="mermaid">
+  {{- .Inner | safeHTML }}
+</pre>
+{{ .Page.Store.Set "hasMermaid" true }}
+```
+
+写这块真是战战兢兢，毕竟没有系统性的前端知识，每次遇到非要用前端知识解决就现学。
