@@ -1,5 +1,5 @@
 baseURL = 'https://example.org'
-languageCode = 'zh-cn'
+languageCode = 'zh'
 timeZone = 'Etc/GMT-8'
 pagination = 5
 title = '何陋之有'

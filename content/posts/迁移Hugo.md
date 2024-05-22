@@ -13,7 +13,7 @@ tags = '计算机'
 
 ## 2 部署
 
-依然准备放到GitHub Pages上。先新建`.gitignore`加入`public/`后把整个项目push上去，再照着[Hugo教程](https://gohugo.io/hosting-and-deployment/hosting-on-github/)配置GitHub Actions就很顺利完成了。简单来说就是修改`Repo > Settings > Pages > Build and deployment` 为`GitHub Actions`，然后选择提供的Hugo部署文件或者自己创建个空的，最后直接粘贴教程里的YAML提交了就是。
+依然准备放到GitHub Pages上。先新建`.gitignore`忽略`public/`后把整个项目push上去，再照着[Hugo教程](https://gohugo.io/hosting-and-deployment/hosting-on-github/)配置GitHub Actions就很顺利完成了，简单来说就是修改`Repo > Settings > Pages > Build and deployment` 为`GitHub Actions`，然后选择提供的Hugo部署文件或者自己创建个空的，最后直接粘贴教程里的YAML提交了就是。
 
 ## 3 配置
 
@@ -44,7 +44,7 @@ blabla
 
 ### Mermaid支持
 
-为了增加文章科普性，但手动画图又麻烦，准备用Mermaid自动生成简单图解来帮助阐述。在模板文件里引入mermaid.js、增加代码块渲染钩子即可，详见[官方文档](https://gohugo.io/content-management/diagrams/#mermaid-diagrams)。
+为了增加文章易读性，准备增加简单图解辅助阐述，但又懒得手动画图，准备用Mermaid自动生成。在模板文件里引入mermaid.js、增加代码块渲染钩子即可，详见[官方文档](https://gohugo.io/content-management/diagrams/#mermaid-diagrams)。
 
 ```html
 <!-- layouts/_default/baseof.html -->
@@ -62,4 +62,8 @@ blabla
 {{ .Page.Store.Set "hasMermaid" true }}
 ```
 
-写这块真是战战兢兢，毕竟没有系统性的前端知识，每次遇到非要用前端知识解决就现学。
+### 配置小结
+
+由于需求简单，总的说来还是不太麻烦就配置好了，但是写成博客还是挺痛苦的，主要不太想在懂行的人面前显得很蠢，写得战战兢兢的。这块主要需要的是前端知识，我没有系统性学过，每次遇到非要写前端的情况就现理解，深度肯定是不够的，比如JS放head和body的区别都是这次才浅浅了解。
+
+不过正好可以锻炼在专家面前不露怯的脸皮和忽悠能力。
